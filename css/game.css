@@ -1,0 +1,72 @@
+
+body {
+	margin: 1vw;
+	display: block;
+	}
+
+.wrapper {
+	display: block;
+	width: 80vw;
+	margin: auto;
+	height: 50vw;
+	
+}
+
+h1 {
+	width: 55vw;
+	margin: auto;
+}
+h2 {margin-top: 0.5vw;}
+.q-wrapper {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 0.3vw;
+    height: 35vw;
+	width: 55vw;
+	margin: auto;
+}
+.game-field {
+	
+    background-color: orange;
+  }
+
+.target {display: flex;
+	align-items: center;
+  justify-content: center;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+.miss {
+  background-color: red;
+}
+
+.butt-rel {
+	width: 55vw;
+	margin: auto;
+}
+.buttons {
+	margin-top: 15px;
+	min-width: 120px;
+}
+
+.hide {
+	display: none;
+}
+@media screen and (max-width: 500px) {
+	h1 {font-size: 1.3rem;
+	}
+	  h2 {font-size: 1rem;
+	}
+	  h3 {font-size: 0.8rem;
+	}
+	.target {
+  font-size: 12px;
+  font-weight: bold;
+}
+	
+}
